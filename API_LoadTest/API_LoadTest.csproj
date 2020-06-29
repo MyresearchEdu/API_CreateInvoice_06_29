@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--<Import Project="..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.props')" />-->
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3571F926-6169-4D8A-9D42-71D079FF230E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>API_LoadTest</RootNamespace>
+    <AssemblyName>API_LoadTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamics.Framework.UI">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.Extensibility, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.Navigation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.UX2006, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.UX2006.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.UX2006.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.UX2006.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.Windows, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.WinForms.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.WinForms.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.UI.WinForms.DataVisualization, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Framework.UI.WinForms.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Apps">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Apps.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Apps.Tools">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Apps.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Client">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Client.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Client.Builder">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Client.Builder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Client.ServiceConnection">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Client.ServiceConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Client.UI">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Client.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Client.WinClient">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Client.WinClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Client.WinForms">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Client.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Common.Exchange">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Common.Exchange.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.DocumentService">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.DocumentService.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.DocumentService.Types">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.DocumentService.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.DotNetBridge">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.DotNetBridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Language">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Language.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Management">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Model">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Model.Parser">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Model.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Model.Tools">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Model.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Model.TypeSystem">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Model.TypeSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Ncl">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Ncl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.OpenXml">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Types">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.Types.Report">
+      <HintPath>C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\Microsoft.Dynamics.Nav.Types.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <!--<Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.targets'))" />-->
+  </Target>
+  <!--<Import Project="..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.targets')" />-->
+</Project>

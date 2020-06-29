@@ -1,0 +1,712 @@
+﻿<Collection name="Root" type="System.Linq.Enumerable+AppendPrependN`1[[Microsoft.Dynamics.Nav.Client.NavOpenFormArguments, Microsoft.Dynamics.Nav.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <Items>
+    <Complex type="Microsoft.Dynamics.Nav.Client.NavOpenFormArguments, Microsoft.Dynamics.Nav.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Properties>
+        <Complex name="TableCaptions">
+          <Properties>
+            <SingleArray name="Captions">
+              <Items>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="29" />
+                    <Simple name="Caption" value="Department Code" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="30" />
+                    <Simple name="Caption" value="Дохрасх Код" />
+                  </Properties>
+                </Complex>
+              </Items>
+            </SingleArray>
+          </Properties>
+        </Complex>
+        <Complex name="FormProperties">
+          <Properties>
+            <Simple name="InsertAllowed" value="True" />
+            <Simple name="ModifyAllowed" value="True" />
+            <Simple name="DeleteAllowed" value="True" />
+            <Simple name="IsAbleToOverwriteAllowedProperties" value="True" />
+            <Complex name="ExtensionData">
+              <Properties>
+                <Null name="Members" />
+              </Properties>
+            </Complex>
+          </Properties>
+        </Complex>
+        <Complex name="State">
+          <Properties>
+            <Complex name="ExtensionData">
+              <Properties>
+                <Null name="Members" />
+              </Properties>
+            </Complex>
+            <Simple name="RunFormOnRec" value="False" />
+            <Complex name="TableView">
+              <Properties>
+                <Complex name="ExtensionData">
+                  <Properties>
+                    <Null name="Members" />
+                  </Properties>
+                </Complex>
+                <Simple name="TableId" value="38" />
+                <SingleArray name="CurrentSortingFieldIds" id="13">
+                  <Items>
+                    <Simple value="1" />
+                    <Simple value="3" />
+                  </Items>
+                </SingleArray>
+                <Simple name="Ascending" value="True" />
+                <SingleArray name="CurrentFilters" id="14">
+                  <Items>
+                    <Complex>
+                      <Properties>
+                        <Simple name="FilterGroupNo" value="2" />
+                        <SingleArray name="Filters">
+                          <Items>
+                            <Complex id="17">
+                              <Properties>
+                                <Simple name="FilterField" value="1" />
+                                <Simple name="FilterValue" value="2" />
+                                <Null name="UserTypedFilterValue" />
+                                <Simple name="OptionsAsCaptionsFilterValue" value="Invoice" />
+                                <Simple name="RuntimeFilter" value="System" />
+                                <Simple name="IsExactValue" value="True" />
+                              </Properties>
+                            </Complex>
+                            <Complex>
+                              <Properties>
+                                <Simple name="FilterField" value="12400" />
+                                <Simple name="FilterValue" value="1" />
+                                <Null name="UserTypedFilterValue" />
+                                <Simple name="OptionsAsCaptionsFilterValue" value="Yes" />
+                                <Simple name="RuntimeFilter" value="System" />
+                                <Simple name="IsExactValue" value="True" />
+                              </Properties>
+                            </Complex>
+                          </Items>
+                        </SingleArray>
+                      </Properties>
+                    </Complex>
+                  </Items>
+                </SingleArray>
+                <Null name="SearchFilter" />
+              </Properties>
+            </Complex>
+            <Simple name="TableId" value="38" />
+            <Simple name="Ascending" value="True" />
+            <Reference name="CurrentFilters" id="14" />
+            <Null name="SearchFilter" />
+            <Simple name="FlushDataCache" value="False" />
+            <Simple name="CurrentRecord" value="JgAAAACLAAAAAAJ7AAAAAAA=" />
+            <Simple name="NavFormEditable" value="True" />
+            <Simple name="ValidateFieldsInOnNewRecord" value="True" />
+            <Null name="InsertLowerBoundBookmark" />
+            <Null name="InsertUpperBoundBookmark" />
+            <Simple name="AllSelected" value="False" />
+            <SingleArray name="SelectedRecords">
+              <Items />
+            </SingleArray>
+            <Null name="NonSelectedRecords" />
+            <Simple name="ServerFormHandle" value="1f69d292-77e9-4f17-ac80-e80b667ed2d1" />
+            <Simple name="FormId" value="12431" />
+            <Simple name="ParentFormId" value="0" />
+            <Null name="FormOpenExceptionData" />
+            <Null name="FormOpenException" />
+            <Null name="PersonalizationId" />
+            <Simple name="IsResourceDefinedForm" value="False" />
+            <Simple name="Timeout" value="0" />
+            <Simple name="FormUpdateRequest" value="None" />
+            <SingleArray name="SubFormUpdateRequests">
+              <Items />
+            </SingleArray>
+            <Null name="Changes" />
+            <Simple name="PageCaption" value="Advance Statement" />
+            <Null name="FormVariables" />
+            <Null name="AutoKeyValues" />
+            <Reference name="CurrentSortingFieldIds" id="13" />
+            <Simple name="RecordState" value="OutsideOfFilters" />
+            <Simple name="ValidateRequired" value="True" />
+            <Simple name="ClientRecordDraft" value="False" />
+            <Simple name="RenamingMode" value="NoKeys" />
+            <Simple name="CurrentFilterGroup" value="0" />
+            <Simple name="IsSubFormUpdateRequest" value="False" />
+            <Simple name="MoreDataInReadDirection" value="False" />
+            <Simple name="MoreDataInOppositeDirection" value="False" />
+            <Simple name="UpdatePropagation" value="False" />
+            <Null name="SubFormSelectionStates" />
+            <Simple name="RecordTemporary" value="False" />
+          </Properties>
+        </Complex>
+        <Null name="ControlId" />
+        <Complex name="DataSet">
+          <Properties>
+            <Null name="System.Runtime.Serialization.IExtensibleDataObject.ExtensionData" />
+            <Simple name="DataSetName" value="NewDataSet" />
+            <Complex name="Locale" id="22">
+              <Properties>
+                <Complex name="CurrentCulture" id="23">
+                  <Properties>
+                    <Reference name="CurrentCulture" id="23" />
+                    <Reference name="CurrentUICulture" id="23" />
+                    <Null name="DefaultThreadCurrentCulture" />
+                    <Null name="DefaultThreadCurrentUICulture" />
+                    <Complex name="NumberFormat">
+                      <Properties>
+                        <Simple name="CurrencyDecimalDigits" value="2" />
+                        <Simple name="CurrencyDecimalSeparator" value="." />
+                        <SingleArray name="CurrencyGroupSizes">
+                          <Items>
+                            <Simple value="3" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="NumberGroupSizes">
+                          <Items>
+                            <Simple value="3" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="PercentGroupSizes">
+                          <Items>
+                            <Simple value="3" />
+                          </Items>
+                        </SingleArray>
+                        <Simple name="CurrencyGroupSeparator" value="," />
+                        <Simple name="CurrencySymbol" value="$" />
+                        <Simple name="NaNSymbol" value="NaN" />
+                        <Simple name="CurrencyNegativePattern" value="0" />
+                        <Simple name="NumberNegativePattern" value="1" />
+                        <Simple name="PercentPositivePattern" value="1" />
+                        <Simple name="PercentNegativePattern" value="1" />
+                        <Simple name="NegativeInfinitySymbol" value="-∞" />
+                        <Simple name="NegativeSign" value="-" />
+                        <Simple name="NumberDecimalDigits" value="2" />
+                        <Simple name="NumberDecimalSeparator" value="." />
+                        <Simple name="NumberGroupSeparator" value="," />
+                        <Simple name="CurrencyPositivePattern" value="0" />
+                        <Simple name="PositiveInfinitySymbol" value="∞" />
+                        <Simple name="PositiveSign" value="+" />
+                        <Simple name="PercentDecimalDigits" value="2" />
+                        <Simple name="PercentDecimalSeparator" value="." />
+                        <Simple name="PercentGroupSeparator" value="," />
+                        <Simple name="PercentSymbol" value="%" />
+                        <Simple name="PerMilleSymbol" value="‰" />
+                        <SingleArray name="NativeDigits">
+                          <Items>
+                            <Simple value="0" />
+                            <Simple value="1" />
+                            <Simple value="2" />
+                            <Simple value="3" />
+                            <Simple value="4" />
+                            <Simple value="5" />
+                            <Simple value="6" />
+                            <Simple value="7" />
+                            <Simple value="8" />
+                            <Simple value="9" />
+                          </Items>
+                        </SingleArray>
+                        <Simple name="DigitSubstitution" value="None" />
+                      </Properties>
+                    </Complex>
+                    <Complex name="DateTimeFormat">
+                      <Properties>
+                        <Simple name="AMDesignator" value="AM" />
+                        <Complex name="Calendar" type="System.Globalization.GregorianCalendar, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                          <Properties>
+                            <Simple name="CalendarType" value="Localized" />
+                            <Simple name="TwoDigitYearMax" value="2029" />
+                          </Properties>
+                        </Complex>
+                        <Simple name="DateSeparator" value="/" />
+                        <Simple name="FirstDayOfWeek" value="Sunday" />
+                        <Simple name="CalendarWeekRule" value="FirstDay" />
+                        <Simple name="FullDateTimePattern" value="dddd, MMMM d, yyyy h:mm:ss tt" />
+                        <Simple name="LongDatePattern" value="dddd, MMMM d, yyyy" />
+                        <Simple name="LongTimePattern" value="h:mm:ss tt" />
+                        <Simple name="MonthDayPattern" value="MMMM d" />
+                        <Simple name="PMDesignator" value="PM" />
+                        <Simple name="ShortDatePattern" value="M/d/yyyy" />
+                        <Simple name="ShortTimePattern" value="h:mm tt" />
+                        <Simple name="TimeSeparator" value=":" />
+                        <Simple name="YearMonthPattern" value="MMMM yyyy" />
+                        <SingleArray name="AbbreviatedDayNames">
+                          <Items>
+                            <Simple value="Sun" />
+                            <Simple value="Mon" />
+                            <Simple value="Tue" />
+                            <Simple value="Wed" />
+                            <Simple value="Thu" />
+                            <Simple value="Fri" />
+                            <Simple value="Sat" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="ShortestDayNames">
+                          <Items>
+                            <Simple value="Su" />
+                            <Simple value="Mo" />
+                            <Simple value="Tu" />
+                            <Simple value="We" />
+                            <Simple value="Th" />
+                            <Simple value="Fr" />
+                            <Simple value="Sa" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="DayNames">
+                          <Items>
+                            <Simple value="Sunday" />
+                            <Simple value="Monday" />
+                            <Simple value="Tuesday" />
+                            <Simple value="Wednesday" />
+                            <Simple value="Thursday" />
+                            <Simple value="Friday" />
+                            <Simple value="Saturday" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="AbbreviatedMonthNames">
+                          <Items>
+                            <Simple value="Jan" />
+                            <Simple value="Feb" />
+                            <Simple value="Mar" />
+                            <Simple value="Apr" />
+                            <Simple value="May" />
+                            <Simple value="Jun" />
+                            <Simple value="Jul" />
+                            <Simple value="Aug" />
+                            <Simple value="Sep" />
+                            <Simple value="Oct" />
+                            <Simple value="Nov" />
+                            <Simple value="Dec" />
+                            <Simple value="" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="MonthNames">
+                          <Items>
+                            <Simple value="January" />
+                            <Simple value="February" />
+                            <Simple value="March" />
+                            <Simple value="April" />
+                            <Simple value="May" />
+                            <Simple value="June" />
+                            <Simple value="July" />
+                            <Simple value="August" />
+                            <Simple value="September" />
+                            <Simple value="October" />
+                            <Simple value="November" />
+                            <Simple value="December" />
+                            <Simple value="" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="AbbreviatedMonthGenitiveNames">
+                          <Items>
+                            <Simple value="Jan" />
+                            <Simple value="Feb" />
+                            <Simple value="Mar" />
+                            <Simple value="Apr" />
+                            <Simple value="May" />
+                            <Simple value="Jun" />
+                            <Simple value="Jul" />
+                            <Simple value="Aug" />
+                            <Simple value="Sep" />
+                            <Simple value="Oct" />
+                            <Simple value="Nov" />
+                            <Simple value="Dec" />
+                            <Simple value="" />
+                          </Items>
+                        </SingleArray>
+                        <SingleArray name="MonthGenitiveNames">
+                          <Items>
+                            <Simple value="January" />
+                            <Simple value="February" />
+                            <Simple value="March" />
+                            <Simple value="April" />
+                            <Simple value="May" />
+                            <Simple value="June" />
+                            <Simple value="July" />
+                            <Simple value="August" />
+                            <Simple value="September" />
+                            <Simple value="October" />
+                            <Simple value="November" />
+                            <Simple value="December" />
+                            <Simple value="" />
+                          </Items>
+                        </SingleArray>
+                      </Properties>
+                    </Complex>
+                  </Properties>
+                </Complex>
+                <Reference name="CurrentUICulture" id="23" />
+                <Null name="DefaultThreadCurrentCulture" />
+                <Null name="DefaultThreadCurrentUICulture" />
+                <Complex name="NumberFormat">
+                  <Properties>
+                    <Simple name="CurrencyDecimalDigits" value="2" />
+                    <Simple name="CurrencyDecimalSeparator" value="." />
+                    <SingleArray name="CurrencyGroupSizes">
+                      <Items>
+                        <Simple value="3" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="NumberGroupSizes">
+                      <Items>
+                        <Simple value="3" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="PercentGroupSizes">
+                      <Items>
+                        <Simple value="3" />
+                      </Items>
+                    </SingleArray>
+                    <Simple name="CurrencyGroupSeparator" value="," />
+                    <Simple name="CurrencySymbol" value="¤" />
+                    <Simple name="NaNSymbol" value="NaN" />
+                    <Simple name="CurrencyNegativePattern" value="0" />
+                    <Simple name="NumberNegativePattern" value="1" />
+                    <Simple name="PercentPositivePattern" value="0" />
+                    <Simple name="PercentNegativePattern" value="0" />
+                    <Simple name="NegativeInfinitySymbol" value="-Infinity" />
+                    <Simple name="NegativeSign" value="-" />
+                    <Simple name="NumberDecimalDigits" value="2" />
+                    <Simple name="NumberDecimalSeparator" value="." />
+                    <Simple name="NumberGroupSeparator" value="," />
+                    <Simple name="CurrencyPositivePattern" value="0" />
+                    <Simple name="PositiveInfinitySymbol" value="Infinity" />
+                    <Simple name="PositiveSign" value="+" />
+                    <Simple name="PercentDecimalDigits" value="2" />
+                    <Simple name="PercentDecimalSeparator" value="." />
+                    <Simple name="PercentGroupSeparator" value="," />
+                    <Simple name="PercentSymbol" value="%" />
+                    <Simple name="PerMilleSymbol" value="‰" />
+                    <SingleArray name="NativeDigits">
+                      <Items>
+                        <Simple value="0" />
+                        <Simple value="1" />
+                        <Simple value="2" />
+                        <Simple value="3" />
+                        <Simple value="4" />
+                        <Simple value="5" />
+                        <Simple value="6" />
+                        <Simple value="7" />
+                        <Simple value="8" />
+                        <Simple value="9" />
+                      </Items>
+                    </SingleArray>
+                    <Simple name="DigitSubstitution" value="None" />
+                  </Properties>
+                </Complex>
+                <Complex name="DateTimeFormat">
+                  <Properties>
+                    <Simple name="AMDesignator" value="AM" />
+                    <Complex name="Calendar" type="System.Globalization.GregorianCalendar, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <Properties>
+                        <Simple name="CalendarType" value="Localized" />
+                        <Simple name="TwoDigitYearMax" value="2029" />
+                      </Properties>
+                    </Complex>
+                    <Simple name="DateSeparator" value="/" />
+                    <Simple name="FirstDayOfWeek" value="Sunday" />
+                    <Simple name="CalendarWeekRule" value="FirstDay" />
+                    <Simple name="FullDateTimePattern" value="dddd, dd MMMM yyyy HH:mm:ss" />
+                    <Simple name="LongDatePattern" value="dddd, dd MMMM yyyy" />
+                    <Simple name="LongTimePattern" value="HH:mm:ss" />
+                    <Simple name="MonthDayPattern" value="MMMM dd" />
+                    <Simple name="PMDesignator" value="PM" />
+                    <Simple name="ShortDatePattern" value="MM/dd/yyyy" />
+                    <Simple name="ShortTimePattern" value="HH:mm" />
+                    <Simple name="TimeSeparator" value=":" />
+                    <Simple name="YearMonthPattern" value="yyyy MMMM" />
+                    <SingleArray name="AbbreviatedDayNames">
+                      <Items>
+                        <Simple value="Sun" />
+                        <Simple value="Mon" />
+                        <Simple value="Tue" />
+                        <Simple value="Wed" />
+                        <Simple value="Thu" />
+                        <Simple value="Fri" />
+                        <Simple value="Sat" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="ShortestDayNames">
+                      <Items>
+                        <Simple value="Su" />
+                        <Simple value="Mo" />
+                        <Simple value="Tu" />
+                        <Simple value="We" />
+                        <Simple value="Th" />
+                        <Simple value="Fr" />
+                        <Simple value="Sa" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="DayNames">
+                      <Items>
+                        <Simple value="Sunday" />
+                        <Simple value="Monday" />
+                        <Simple value="Tuesday" />
+                        <Simple value="Wednesday" />
+                        <Simple value="Thursday" />
+                        <Simple value="Friday" />
+                        <Simple value="Saturday" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="AbbreviatedMonthNames">
+                      <Items>
+                        <Simple value="Jan" />
+                        <Simple value="Feb" />
+                        <Simple value="Mar" />
+                        <Simple value="Apr" />
+                        <Simple value="May" />
+                        <Simple value="Jun" />
+                        <Simple value="Jul" />
+                        <Simple value="Aug" />
+                        <Simple value="Sep" />
+                        <Simple value="Oct" />
+                        <Simple value="Nov" />
+                        <Simple value="Dec" />
+                        <Simple value="" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="MonthNames">
+                      <Items>
+                        <Simple value="January" />
+                        <Simple value="February" />
+                        <Simple value="March" />
+                        <Simple value="April" />
+                        <Simple value="May" />
+                        <Simple value="June" />
+                        <Simple value="July" />
+                        <Simple value="August" />
+                        <Simple value="September" />
+                        <Simple value="October" />
+                        <Simple value="November" />
+                        <Simple value="December" />
+                        <Simple value="" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="AbbreviatedMonthGenitiveNames">
+                      <Items>
+                        <Simple value="Jan" />
+                        <Simple value="Feb" />
+                        <Simple value="Mar" />
+                        <Simple value="Apr" />
+                        <Simple value="May" />
+                        <Simple value="Jun" />
+                        <Simple value="Jul" />
+                        <Simple value="Aug" />
+                        <Simple value="Sep" />
+                        <Simple value="Oct" />
+                        <Simple value="Nov" />
+                        <Simple value="Dec" />
+                        <Simple value="" />
+                      </Items>
+                    </SingleArray>
+                    <SingleArray name="MonthGenitiveNames">
+                      <Items>
+                        <Simple value="January" />
+                        <Simple value="February" />
+                        <Simple value="March" />
+                        <Simple value="April" />
+                        <Simple value="May" />
+                        <Simple value="June" />
+                        <Simple value="July" />
+                        <Simple value="August" />
+                        <Simple value="September" />
+                        <Simple value="October" />
+                        <Simple value="November" />
+                        <Simple value="December" />
+                        <Simple value="" />
+                      </Items>
+                    </SingleArray>
+                  </Properties>
+                </Complex>
+              </Properties>
+            </Complex>
+            <Complex name="DataSet" type="Microsoft.Dynamics.Nav.Types.HybridDataStore, Microsoft.Dynamics.Nav.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+              <Properties>
+                <Simple name="Data" value="Ck5ld0RhdGFTZXR/AAAAAQAAAAEwCQQAALMAAAAIYm9va21hcmsTAAAAAAEwCgAAAAABMQgAAAAAATMRAAAAAAEyEQAAAAABNBEAAAAAATURAAAAAAE2EQAAAAABNxEAAAAAATgRAAAAAAE5EQAAAAACMTARAAAAAAIxMREAAAAAAjEyEQAAAAACMTMRAAAAAAIxNBEAAAAAAjE1EQAAAAACMTYRAAAAAAIxNxEAAAAAAjE4EQAAAAACMTkPAAAAAAIyMA8AAAAAAjIxDwAAAAACMjIRAAAAAAIyMxEAAAAAAjI0DwAAAAACMjUOAAAAAAIyNg8AAAAAAjI3EQAAAAACMjgRAAAAAAIyOREAAAAAAjMwEQAAAAACMzERAAAAAAIzMhEAAAAAAjMzDgAAAAACMzUCAAAAAAIzNxEAAAAAAjQxEQAAAAACNDMRAAAAAAI0NREAAAAAAjQ3CAAAAAACNTERAAAAAAI1MggAAAAAAjUzEQAAAAACNTURAAAAAAI1NwIAAAAAAjU4AgAAAAACNTkCAAAAAAI2MhEAAAAAAjYzEQAAAAACNjQRAAAAAAI2NREAAAAAAjY2EQAAAAACNjcRAAAAAAI2OBEAAAAAAjY5EQAAAAACNzARAAAAAAI3MhEAAAAAAjczEQAAAAACNzQRAAAAAAI3NhEAAAAAAjc3EQAAAAACNzgRAAAAAAI3OREAAAAAAjgwEQAAAAACODERAAAAAAI4MhEAAAAAAjgzEQAAAAACODQRAAAAAAI4NREAAAAAAjg2EQAAAAACODcRAAAAAAI4OBEAAAAAAjg5EQAAAAACOTARAAAAAAI5MREAAAAAAjkyEQAAAAACOTMRAAAAAAI5NAgAAAAAAjk1EQAAAAACOTcRAAAAAAI5OAIAAAAAAjk5DwAAAAADMTAxEQAAAAADMTAyEQAAAAADMTA0EQAAAAADMTA3EQAAAAADMTA4EQAAAAADMTA5EQAAAAADMTE0EQAAAAADMTE1AgAAAAADMTE2EQAAAAADMTE4EQAAAAADMTE5DgAAAAADMTIwCAAAAAADMTIxCAAAAAADMTIyDgAAAAADMTIzAgAAAAADMTI0CAAAAAADMTI1EQAAAAADMTI2EQAAAAADMTI5CAAAAAADMTMwEQAAAAADMTMxEQAAAAADMTMyEQAAAAADMTMzEQAAAAADMTM0DgAAAAADMTM1EQAAAAADMTM2AgAAAAADMTM3DwAAAAADMTM4EQAAAAADMTM5EQAAAAADMTQyDwAAAAADMTQzEQAAAAADMTQ0DgAAAAADMTUxEQAAAAADMTYwCAAAAAADMTYxEgAAAAADMTY1CAAAAAADMTcwEQAAAAADMTcxEQAAAAADNDgwCAAAAAAENTA0OAgAAAAABDUwNTARAAAAAAQ1MDUyEQAAAAAENTA1MxEAAAAABDU3MDARAAAAAAQ1NzUzCAAAAAAENTc5MA8AAAAABDU3OTEPAAAAAAQ1NzkyEQAAAAAENTc5MxEAAAAABDU4MDARAAAAAAQ1ODAxEQAAAAAENTgwMhEAAAAABDU4MDMCAAAAAAQ1ODA0EQAAAAAEODAwMBIAAAAABDkwMDARAAAAAAUxMjQwMAIAAAAABTEyNDAxEQAAAAAFMTI0MDIRAAAAAAUxMjQwMwgAAAAABTEyNDA0AgAAAAAFMTI0MzcIAAAAAAUxMjQzOAgAAAAABTEyNDQwAgAAAAAFMTI0NDEIAAAAAAUxMjQ0MhEAAAAABTEyNDQzCAAAAAAFMTI0NDQRAAAAAAUxMjQ0NREAAAAABTEyNDQ2CAAAAAAFMTI0NDcRAAAAAAUxMjQ3MBEAAAAABTEyNDcxDwAAAAAFMTI0NzIPAAAAAAUxMjQ3Mw8AAAAABTEyNDc0EQAAAAAFMTI0ODURAAAAAAUxMjQ4NgIAAAAABTEyNDkwEQAAAAAFMTI0OTERAAAAAAUxMjQ5OAIAAAAABTEyNDk5DwAAAAAENTc1NBEAAAAABDU3OTYPAAAAAAI0NgIAAAAAAjU2AgAAAAACNjAOAAAAAAI2MQ4AAAAAAzMwMA4AAAAAAzMwMQ4AAAAABDEzMDUOAAAAAAQ1MDQzCAAAAAAENTc1MQIAAAAABDU3NTICAAAAAAQ5MDAxCAAAAAAFMTI0ODAOAAAAAAEAAAACEQAAACYAAAAAiwAAAAACewAAAAAAAgAAAAAAAAAAAgAAAAACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgAAAAAAAAAAAgAAAAIAAAAAAAAAAAIAAAACAAAAAAAAAAACAAAAAgACAAIAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIAAAACAAIAAgACAAIAAgACAAAAAAAAAAAAAAAAAAAAAAIAAgACAAIAAgACAAAAAAIAAgAAAAACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgAAAAACAAIAAgACAAAAAAAAAAACAAAAAgACAAIAAgACAAIAAgACAAIAAgACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAACAAIAAgAAAAACAAIAAgACAAIAAAAAAAAAAAAAAAAAAAAAAgACAQIAAAAAAAAAAAIAAAACAAIAAgAAAAAAAAAAAgAAAAIAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAIAAgACAAAAAAIAAAAAAgACAAIAAgACAAAAAAIAAAAAAAAAAAIAAAACAAAAAAAAAAACAAAAAgACAAIAAgACAAIAAgACAAAAAAAAAAAAAAAAAAAAAAIAAgACAAIAAgAAAAACAAIAAAAAAgAAAAACAAIAAAAAAgACAAAAAAIAAgACAAAAAAIAAgACAAAAAAAAAAACAAAAAgAAAAAAAAAAAgAAAAIAAAAAAAAAAAIAAAACAAIAAgACAAIAAgACAAAAAAAAAAACAAAAAAACAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAA=" />
+                <Simple name="IsCompressed" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="False" />
+              </Properties>
+            </Complex>
+          </Properties>
+        </Complex>
+      </Properties>
+    </Complex>
+    <Complex type="Microsoft.Dynamics.Nav.Client.NavOpenFormArguments, Microsoft.Dynamics.Nav.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Properties>
+        <Complex name="TableCaptions">
+          <Properties>
+            <SingleArray name="Captions">
+              <Items>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="6" />
+                    <Simple name="Caption" value="No." />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="22" />
+                    <Simple name="Caption" value="Direct Unit Cost Excl. VAT" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="40" />
+                    <Simple name="Caption" value="Department Code" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="41" />
+                    <Simple name="Caption" value="Дохрасх Код" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="103" />
+                    <Simple name="Caption" value="Line Amount Excl. VAT" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="110" />
+                    <Simple name="Caption" value="Prepmt. Line Amount Excl. VAT" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="111" />
+                    <Simple name="Caption" value="Prepmt. Amt. Inv. Excl. VAT" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="121" />
+                    <Simple name="Caption" value="Prepmt Amt to Deduct Excl. VAT" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Simple name="FieldId" value="122" />
+                    <Simple name="Caption" value="Prepmt Amt Deducted Excl. VAT" />
+                  </Properties>
+                </Complex>
+              </Items>
+            </SingleArray>
+          </Properties>
+        </Complex>
+        <Complex name="FormProperties">
+          <Properties>
+            <Simple name="InsertAllowed" value="True" />
+            <Simple name="ModifyAllowed" value="True" />
+            <Simple name="DeleteAllowed" value="True" />
+            <Simple name="IsAbleToOverwriteAllowedProperties" value="True" />
+            <Complex name="ExtensionData">
+              <Properties>
+                <Null name="Members" />
+              </Properties>
+            </Complex>
+          </Properties>
+        </Complex>
+        <Complex name="State">
+          <Properties>
+            <Complex name="ExtensionData">
+              <Properties>
+                <Null name="Members" />
+              </Properties>
+            </Complex>
+            <Simple name="RunFormOnRec" value="False" />
+            <Complex name="TableView">
+              <Properties>
+                <Complex name="ExtensionData">
+                  <Properties>
+                    <Null name="Members" />
+                  </Properties>
+                </Complex>
+                <Simple name="TableId" value="39" />
+                <SingleArray name="CurrentSortingFieldIds" id="71">
+                  <Items>
+                    <Simple value="1" />
+                    <Simple value="3" />
+                    <Simple value="4" />
+                  </Items>
+                </SingleArray>
+                <Simple name="Ascending" value="True" />
+                <SingleArray name="CurrentFilters" id="72">
+                  <Items>
+                    <Complex>
+                      <Properties>
+                        <Simple name="FilterGroupNo" value="2" />
+                        <SingleArray name="Filters">
+                          <Items>
+                            <Reference id="17" />
+                          </Items>
+                        </SingleArray>
+                      </Properties>
+                    </Complex>
+                  </Items>
+                </SingleArray>
+                <Null name="SearchFilter" />
+              </Properties>
+            </Complex>
+            <Simple name="TableId" value="39" />
+            <Simple name="Ascending" value="True" />
+            <Reference name="CurrentFilters" id="72" />
+            <Null name="SearchFilter" />
+            <Simple name="FlushDataCache" value="False" />
+            <Simple name="CurrentRecord" value="JwAAAACLAAAAAAJ7AAAAAIcAAAAAAAA=" />
+            <Simple name="NavFormEditable" value="True" />
+            <Simple name="ValidateFieldsInOnNewRecord" value="True" />
+            <Null name="InsertLowerBoundBookmark" />
+            <Null name="InsertUpperBoundBookmark" />
+            <Simple name="AllSelected" value="False" />
+            <SingleArray name="SelectedRecords">
+              <Items />
+            </SingleArray>
+            <Null name="NonSelectedRecords" />
+            <Simple name="ServerFormHandle" value="59c75b64-bb24-4d24-af97-aeec7719670f" />
+            <Simple name="FormId" value="12432" />
+            <Simple name="ParentFormId" value="0" />
+            <Null name="FormOpenExceptionData" />
+            <Null name="FormOpenException" />
+            <Null name="PersonalizationId" />
+            <Simple name="IsResourceDefinedForm" value="False" />
+            <Simple name="Timeout" value="0" />
+            <Simple name="FormUpdateRequest" value="None" />
+            <SingleArray name="SubFormUpdateRequests">
+              <Items />
+            </SingleArray>
+            <Null name="Changes" />
+            <Simple name="PageCaption" value="Lines" />
+            <Null name="FormVariables" />
+            <Null name="AutoKeyValues" />
+            <Reference name="CurrentSortingFieldIds" id="71" />
+            <Simple name="RecordState" value="OutsideOfFilters" />
+            <Simple name="ValidateRequired" value="True" />
+            <Simple name="ClientRecordDraft" value="False" />
+            <Simple name="RenamingMode" value="NoKeys" />
+            <Simple name="CurrentFilterGroup" value="0" />
+            <Simple name="IsSubFormUpdateRequest" value="False" />
+            <Simple name="MoreDataInReadDirection" value="False" />
+            <Simple name="MoreDataInOppositeDirection" value="False" />
+            <Simple name="UpdatePropagation" value="False" />
+            <Null name="SubFormSelectionStates" />
+            <Simple name="RecordTemporary" value="False" />
+          </Properties>
+        </Complex>
+        <Null name="ControlId" />
+        <Complex name="DataSet">
+          <Properties>
+            <Null name="System.Runtime.Serialization.IExtensibleDataObject.ExtensionData" />
+            <Simple name="DataSetName" value="NewDataSet" />
+            <Reference name="Locale" id="22" />
+            <Complex name="DataSet" type="Microsoft.Dynamics.Nav.Types.HybridDataStore, Microsoft.Dynamics.Nav.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+              <Properties>
+                <Simple name="Data" value="Ck5ld0RhdGFTZXR/AAAAAQAAAAExCQQAANoAAAAIYm9va21hcmsTAAAAAAEwCgAAAAABMQgAAAAAATMRAAAAAAE0CAAAAAABMhEAAAAAATUIAAAAAAE2EQAAAAABNxEAAAAAATgRAAAAAAIxMA8AAAAAAjExEQAAAAACMTIRAAAAAAIxMxEAAAAAAjE1DgAAAAACMTYOAAAAAAIxNw4AAAAAAjE4DgAAAAACMjIOAAAAAAIyMw4AAAAAAjI1DgAAAAACMjcOAAAAAAIyOA4AAAAAAjI5DgAAAAACMzAOAAAAAAIzMQ4AAAAAAjMyAgAAAAACMzQOAAAAAAIzNQ4AAAAAAjM2DgAAAAACMzcOAAAAAAIzOAgAAAAAAjQwEQAAAAACNDERAAAAAAI0NREAAAAAAjU0DgAAAAACNTYCAAAAAAI1Nw4AAAAAAjU4DgAAAAACNTkOAAAAAAI2MA4AAAAAAjYxDgAAAAACNjMRAAAAAAI2NAgAAAAAAjY3DgAAAAACNjgRAAAAAAI2OQ4AAAAAAjcwEQAAAAACNzERAAAAAAI3MggAAAAAAjczAgAAAAACNzQRAAAAAAI3NREAAAAAAjc3CAAAAAACNzgRAAAAAAI3OREAAAAAAjgwCAAAAAACODERAAAAAAI4MhEAAAAAAjgzEQAAAAACODURAAAAAAI4NgIAAAAAAjg3EQAAAAACODgCAAAAAAI4OREAAAAAAjkwEQAAAAACOTERAAAAAAI5Mg4AAAAAAjkzDgAAAAACOTcRAAAAAAI5OAgAAAAAAjk5DgAAAAADMTAwDgAAAAADMTAxAgAAAAADMTAzDgAAAAADMTA0DgAAAAADMTA1DgAAAAADMTA2EQAAAAADMTA3CAAAAAADMTA4EQAAAAADMTA5DgAAAAADMTEwDgAAAAADMTExDgAAAAADMTEyDgAAAAADMTEzDgAAAAADMTE0DgAAAAADMTE1DgAAAAADMTE2CAAAAAADMTE3EQAAAAADMTE4EQAAAAADMTE5AgAAAAADMTIwEQAAAAADMTIxDgAAAAADMTIyDgAAAAADMTIzAgAAAAADMTI0DgAAAAADMTI5DgAAAAADMTMwEQAAAAADMTMyDgAAAAADMTM1DgAAAAADMTM2DgAAAAADMTM3DgAAAAADMTQwDgAAAAADMTQxDgAAAAADNDgwCAAAAAAEMTAwMREAAAAABDEwMDIIAAAAAAQxMDAzDgAAAAAEMTAwNA4AAAAABDEwMDUOAAAAAAQxMDA2DgAAAAAEMTAwNw4AAAAABDEwMDgOAAAAAAQxMDA5DgAAAAAEMTAxMA4AAAAABDEwMTEOAAAAAAQxMDEyDgAAAAAEMTAxMxEAAAAABDEwMTkIAAAAAAQxMDMwDgAAAAAEMTAzMQ4AAAAABDE3MDARAAAAAAQxNzAyDwAAAAAENTQwMREAAAAABDU0MDIRAAAAAAQ1NDAzEQAAAAAENTQwNA4AAAAABDU0MDcRAAAAAAQ1NDE1DgAAAAAENTQxNg4AAAAABDU0MTcOAAAAAAQ1NDE4DgAAAAAENTQ1OA4AAAAABDU0NjAOAAAAAAQ1NDYxDgAAAAAENTYwMA8AAAAABDU2MDEIAAAAAAQ1NjAyEQAAAAAENTYwMw4AAAAABDU2MDUCAAAAAAQ1NjA2AgAAAAAENTYwOREAAAAABDU2MTARAAAAAAQ1NjExEQAAAAAENTYxMhEAAAAABDU2MTMCAAAAAAQ1NzAwEQAAAAAENTcwNREAAAAABDU3MDYRAAAAAAQ1NzA3CAAAAAAENTcwOBEAAAAABDU3MDkRAAAAAAQ1NzEwAgAAAAAENTcxMREAAAAABDU3MTIRAAAAAAQ1NzEzAgAAAAAENTcxNBEAAAAABDU3MTUIAAAAAAQ1NzUyAgAAAAAENTc5MA8AAAAABDU3OTEPAAAAAAQ1NzkyEQAAAAAENTc5MxEAAAAABDU3OTQPAAAAAAQ1Nzk1DwAAAAAENTgwMAIAAAAABDU4MDMOAAAAAAQ1ODA0DgAAAAAENTgwNQ4AAAAABDU4MDYOAAAAAAQ1ODA3DgAAAAAENTgwOA4AAAAABDU4MDkOAAAAAAQ1ODEwDgAAAAAENjYwMBEAAAAABDY2MDEIAAAAAAQ2NjA4EQAAAAAENjYwOQgAAAAABDY2MTACAAAAAAUxMjQwMBEAAAAABTEyNDAxCAAAAAAFMTI0MDIPAAAAAAUxMjQwMxEAAAAABTEyNDA0EQAAAAAFMTI0MDURAAAAAAUxMjQzMA4AAAAABTEyNDMxDgAAAAAFMTI0ODUCAAAAAAUxMjQ4NhEAAAAABTEyNDg3AgAAAAAFMTI0OTARAAAAAAUxNzMwMBEAAAAACDk5MDAwNzUwEQAAAAAIOTkwMDA3NTERAAAAAAg5OTAwMDc1MhEAAAAACDk5MDAwNzUzAgAAAAAIOTkwMDA3NTQIAAAAAAg5OTAwMDc1NQ4AAAAACDk5MDAwNzU2AgAAAAAIOTkwMDA3NTcIAAAAAAg5OTAwMDc1OBEAAAAACDk5MDAwNzU5CAAAAAACOTUOAAAAAAQ1NDk1DgAAAAAENTc1MA4AAAAABDU4MDEOAAAAAAQ1ODAyDgAAAAAVQ29udHJvbDEyMTAwMzFfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwMzdfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwMzlfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNDFfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNDNfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNDVfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNDdfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNDlfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNTNfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNTdfRm9ybWF0EQAAAAAVQ29udHJvbDEyMTAwNTlfRm9ybWF0EQAAAAABAAAAAhcAAAAnAAAAAIsAAAAAAnsAAAAAhwAAAAAAAAIAAAAAAAAAAAIAAAAAAgACAAAAAAIAAgAAAAACAAIAAgACAAAAAAAAAAACAAAAAgACAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgECAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgACAAIAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAgACAAIAAAAAAgACAAIAAgAAAAACAAIAAgAAAAACAAIAAgACAAIAAgACAAIAAgACAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAIAAgACAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAgAAAAIAAgACAAIBAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIAAAACAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAACAAIAAgACAAIAAgACAAIAAgACAAIAAAAAAgACAAIAAgACAAIAAgACAAAAAAIAAgAAAAAAAAAAAgAAAAIAAAAAAAAAAAIAAAACAAIAAgAAAAAAAAAAAgAAAAIAAAAAAAAAAAIAAAACAQIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgACAAAAAAIAAgACAAAAAAIAAAAAAAAAAAIAAAACAAIAAgACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgACAAIAAgACAAIAAgACAAIAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAACAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAILIywjIzAuIyMjIyMCCyMsIyMwLjAwIyMjAgsjLCMjMC4jIyMjIwILIywjIzAuMDAjIyMCCyMsIyMwLjAwIyMjAggjLCMjMC4wMAILIywjIzAuIyMjIyMCCCMsIyMwLjAwAggjLCMjMC4wMAILIywjIzAuIyMjIyMCCyMsIyMwLiMjIyMj" />
+                <Simple name="IsCompressed" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="False" />
+              </Properties>
+            </Complex>
+          </Properties>
+        </Complex>
+      </Properties>
+    </Complex>
+  </Items>
+</Collection>
